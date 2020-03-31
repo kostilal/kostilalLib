@@ -8,8 +8,10 @@
 
 import Foundation
 
-public final class KostilalLib {
+final class KostilalLib {
     let name = "KostilalLib"
+    
+    public init() {}
     
     public func add(a: Int, b: Int) -> Int {
         return a + b
